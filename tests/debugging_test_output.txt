@@ -248,8 +248,3 @@ DEBUGGING XORWithRoundKey:  2f ba 8b 17 38 1f 22 9f f8 43 9a de 8b 22 43 32 ----
 Decrypted Blocks:
 Block 1: 2f ba 8b 17 38 1f 22 9f f8 43 9a de 8b 22 43 32 -------------------------PASS-----
 Block 1(As String): Two One Nine Two ---------------------------------------------PASS-----
-
-
-g++ -o test_aes .\tests\test_aes.cpp .\src\transformations.cpp .\key_expansion\key_expansion.cpp
-g++ -o test_key_exp .\tests\debug_key_expansion.cpp .\src\transformations.cpp .\key_expansion\key_expansion.cpp 
-g++ -o aes .\src\aes.cpp .\src\transformations.cpp .\key_expansion\key_expansion.cpp
