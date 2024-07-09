@@ -139,7 +139,8 @@ int main() {
     }
 
     // Convert decrypted blocks back to string and print
-    cout << "\nDecrypted text: " << bytesToString(decryptedBlocks) << endl;
+    cout << "Decrypted text: " << bytesToString(decryptedBlocks) << endl;
+    cout << endl;
 
     return 0;
 }
